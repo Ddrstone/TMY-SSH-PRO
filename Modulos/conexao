@@ -2229,7 +2229,7 @@ echo -e "\033[01;31m╚═══════════════════
 				sts4="\033[1;31m○ "
 			}
 			[[ "$(netstat -tlpn | grep 'proxydt' | wc -l)" != '0' ]] && {
-				echo -e "\033[01;31m\033[1;32mSERVICO: \033[1;33mPROXY DT \033[1;32mPORTA:\033[1;31m: \033[1;37m$(netstat -nplt | grep 'proxydt' | awk {'print $4'} | cut -d: -f2 | xargs)"
+				echo -e "\033[01;31m\033[1;32mSERVICO: \033[1;33mPROXY DT \033[1;32mPORTA: \033[1;37m$(netstat -nplt | grep 'proxydt' | awk {'print $4'} | cut -d: -f2 | xargs)"
 				sts4="\033[1;32m◉ "
 			} || {
 				sts4="\033[1;31m○ "
