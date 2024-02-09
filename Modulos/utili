@@ -63,7 +63,7 @@
 			apt install glances -y && glances
 			;;
 			12 | 12)
-			main
+			dtmenu
 			;;
 			0 | 00)
 			clear
