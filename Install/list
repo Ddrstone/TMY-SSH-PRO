@@ -91,4 +91,5 @@ mkdir /opt/sshplus
 echo > /opt/sshplus/sshplus
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/WebSocket && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/pub.key && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/priv.pem && chmod 777 WebSocket && cd $HOME
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/proxydt && chmod 777 proxydt && cd $HOME
+cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/dtmenu && chmod 777 dtmenu && cd $HOME
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/root719/TMY-SSH-PRO/main/Modulos/proxy && chmod 777 proxy && cd $HOME
