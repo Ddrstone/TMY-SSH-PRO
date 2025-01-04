@@ -1,9 +1,9 @@
-# @TMYCOMNECTVPN⚡
+# @Univers du free surf⚡
 
-# @TMYCOMNECTVPN
+# @Dr_internet4
 
 *PROJETO EM BETA🍷🗿
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/root719/TMY-SSH-PRO/main/ssh-plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Ddrstone/TMY-SSH-PRO/main/ssh-plus)
 
 ```
