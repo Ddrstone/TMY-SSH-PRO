@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # encoding: utf-8
 # Socks Scott
 import socket, threading, thread, select, signal, sys, time
@@ -13,9 +13,9 @@ except:
 PASS = ''
 BUFLEN = 8196 * 8
 TIMEOUT = 60
-MSG = '@TMYCOMNECTVPN'
-COR = '<font color="null">'
-FTAG = '</font>'
+MSG = 'Univers du Free Surf'
+COR = '<strong><em><font color="#7f14eb">'
+FTAG = '</font></em></strong>'
 DEFAULT_HOST = '0.0.0.0:22'
 RESPONSE = "HTTP/1.1 200 " + str(COR) + str(MSG) + str(FTAG) + "\r\n\r\n"
  
