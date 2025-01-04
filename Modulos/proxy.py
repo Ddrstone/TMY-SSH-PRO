@@ -13,9 +13,9 @@ except:
 PASS = ''
 BUFLEN = 8196 * 8
 TIMEOUT = 60
-MSG = 'Univers du Free Surf'
-COR = '<strong><em><font color="#7f14eb">'
-FTAG = '</font></em></strong>'
+MSG = '@Univers du Free Surf'
+COR = '<font face="Arial" color="#7f14eb"><b><i>'
+FTAG = '</i></b></font>'
 DEFAULT_HOST = '0.0.0.0:22'
 RESPONSE = "HTTP/1.1 200 " + str(COR) + str(MSG) + str(FTAG) + "\r\n\r\n"
  
