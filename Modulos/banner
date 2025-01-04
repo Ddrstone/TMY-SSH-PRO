@@ -11,8 +11,17 @@ chk=$(cat /etc/ssh/sshd_config | grep Banner)
     local="/etc/bannerssh"
     [[ $(grep -wc $local /etc/ssh/sshd_config) = '0' ]] && echo "Banner /etc/bannerssh" >> /etc/ssh/sshd_config
 }
-echo -e "\E[44;1;37m             BANNER             \E[0m"
+echo -e "\E[44;1;37m             ㅤ BANNER MANAGERㅤ             \E[0m"
 echo ""
+echo -e "\033[1;32m◇───MANUAL BANNER ADDING METHOD───◇"
+echo -e "\033[1;37m◇ Step 1:- Press CTRL+C and sendㅤ👇ㅤ"
+echo -e "\033[1;31msudo nano /etc/bannerssh"
+echo -e "\033[1;37m◇ PASTE YOUR BANNER AS A HTML TEXT"
+echo -e "\033[1;37m◇ Step 2:- Press CTRL+O enter CTRL+X"
+echo ""
+echo -e "\033[1;32m Or"
+echo ""
+echo -e "\033[1;32m◇───EASY BANNER ADDING METHOD───◇"
 echo -e "\033[1;31m[\033[1;36m1\033[1;31m]\033[1;37m • \033[1;33mADICIONAR BANNER"
 echo -e "\033[1;31m[\033[1;36m2\033[1;31m]\033[1;37m • \033[1;33mREMOVER BANNER"
 echo -e "\033[1;31m[\033[1;36m3\033[1;31m]\033[1;37m • \033[1;33mVOLTAR"
